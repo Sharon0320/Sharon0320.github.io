@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ReactionSpeedTest from './ReactionSpeedTest';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Checking Your Reaciton Time</h1>
+      <h2>Press the button to start<br/>Click in green</h2>
+      <p style={{ textAlign: 'center'}}>Start 버튼을 눌러 게임을 시작하세요.</p>
+      <ReactionSpeedTest />
     </div>
   );
 }

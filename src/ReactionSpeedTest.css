@@ -1,0 +1,39 @@
+.Color_area {
+  width: 500%;
+  height: 300px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.btn_area {
+  width: 330%;
+  height: 330px;
+  text-align: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.start_btn {
+  font-size: 100px;
+  text-align: center;
+  width: 350px;
+  height: 300px;
+  cursor: pointer;
+  border: 3px solid #333333;
+  border-radius: 10%;
+  background-color: #209c2a;
+  color: #333;
+  transition: background-color 1s, color 1s;
+}
+
+.start_btn:hover {
+  background-color: #5bdf71;
+  color: #fff;
+}
+
+
+.testArea {
+  height: 300px;
+ padding: 200px;
+ cursor: pointer;
+}
